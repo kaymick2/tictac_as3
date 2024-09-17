@@ -1,6 +1,5 @@
- * {
+* {
   box-sizing: border-box;
-  
 }
 
 body {
@@ -15,17 +14,16 @@ body {
 
 body {
   font-family: sans-serif;
-  padding: 20px;
-  margin:200px;
-
+  margin: 200px;
   justify-content: center;
+  padding: 200px;
 }
 
 .square {
-  background: greenyellow;
-  border: 1px solid #999;
+  background: chartreuse;
+  border: 20pxpx solid #b4adad;
   float: left;
-  font-size: 24px;
+  font-size: 46px;
   font-weight: bold;
   line-height: 34px;
   height: 100px;
@@ -34,18 +32,23 @@ body {
   padding: 0;
   text-align: center;
   width: 33%;
-
-
-
 }
 
 .board-row:after {
   clear: both;
   content: '';
-  display: table;
+  display: table; 
+  /* padding-left: 800px;
+  margin-right: 800px; */
 }
+
+/* .board-row {
+  width: 75px;
+  height: 75px;
+} */
 
 .status {
   margin-bottom: 10px;
+  font-size: 36px;
 }
 
