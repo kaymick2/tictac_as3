@@ -122,8 +122,6 @@ export default function App() {
       <br></br>
       <div>
         <button onClick={handleRefresh}>Do it all over again!</button>
-        <h3>board state (dev purposes :3)</h3>
-        <pre>{JSON.stringify(board, null, 2)}</pre>
       </div>
     </>
   );
